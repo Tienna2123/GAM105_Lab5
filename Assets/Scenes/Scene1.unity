@@ -1517,7 +1517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3262156890448267324, guid: 8d5bc37f939547a4f8a8a6fba4d596f6, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7721244135213627019, guid: 8d5bc37f939547a4f8a8a6fba4d596f6, type: 3}
       propertyPath: m_Pivot.x
@@ -1696,10 +1696,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: MenuChinh
       objectReference: {fileID: 0}
-    - target: {fileID: 5388471046590994795, guid: f4de936f19b76794b847efafc8a93408, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1856,7 +1852,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6028222089160667439, guid: 6754790ad28ef664db95df36cdf5260c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
