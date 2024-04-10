@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CircleMap3_1 : MonoBehaviour
+public class CircleMap4_1 : MonoBehaviour
 {
     private int direction = 1;
-    private float moveSpeed = 6;
+    private float moveSpeed = 10;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,11 +14,9 @@ public class CircleMap3_1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 movement = new Vector3(direction, 0f, 0f);
+        Vector3 movement = new Vector3(0f, direction, 0f);
         transform.Translate(movement * moveSpeed * Time.deltaTime);
-
-        // Sửa điều kiện kiểm tra giới hạn di chuyển trái và phải
-        if (transform.position.x > 1.7f || transform.position.x < -1f)
+        if (transform.position.y > -1.7f || transform.position.y < -3.5f)
         {
             direction *= -1;
         }

@@ -137,7 +137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3262156890448267324, guid: 8d5bc37f939547a4f8a8a6fba4d596f6, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7721244135213627019, guid: 8d5bc37f939547a4f8a8a6fba4d596f6, type: 3}
       propertyPath: m_Pivot.x
@@ -1548,11 +1548,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8115326976091049617, guid: d2834ec5c1fd98140988a1f973eb52b3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -13.610107
+      value: -1667
       objectReference: {fileID: 0}
     - target: {fileID: 8115326976091049617, guid: d2834ec5c1fd98140988a1f973eb52b3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 679.40674
+      value: 166
       objectReference: {fileID: 0}
     - target: {fileID: 8523452406877124000, guid: d2834ec5c1fd98140988a1f973eb52b3, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1688,7 +1688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6028222089160667439, guid: 6754790ad28ef664db95df36cdf5260c, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2111,7 +2111,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!61 &1936747141
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2251,7 +2251,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5388471046590994795, guid: f4de936f19b76794b847efafc8a93408, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

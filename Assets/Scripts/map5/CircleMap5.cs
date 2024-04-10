@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CircleMap3_1 : MonoBehaviour
+public class CircleMap5 : MonoBehaviour
 {
     private int direction = 1;
     private float moveSpeed = 6;
@@ -18,7 +18,7 @@ public class CircleMap3_1 : MonoBehaviour
         transform.Translate(movement * moveSpeed * Time.deltaTime);
 
         // Sửa điều kiện kiểm tra giới hạn di chuyển trái và phải
-        if (transform.position.x > 1.7f || transform.position.x < -1f)
+        if (transform.position.x > -1.3f || transform.position.x < -8f)
         {
             direction *= -1;
         }
